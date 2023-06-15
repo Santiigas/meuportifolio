@@ -139,9 +139,10 @@ body{
 }
 .educacao{
     display: flex;
-    flex-direction: row; 
+    flex-direction: column; 
     justify-content: center; 
     align-items:center;
+    gap: 30px;
 }
 
 .curso{
@@ -158,10 +159,16 @@ body{
     justify-content: center; 
     align-items:flex-start;
 }
-.linha{
+.linhax{
     background: #4e6787;
     width: 400px;
-    height: 5px;
+    height: 4px;
+}
+
+.linhay{
+    background: #4e6787;
+    width: 4px;
+    height: 126px;
 }
 
 .sessao2 > .educacao > .curso > h1{
@@ -175,6 +182,8 @@ body{
 }
 
 .sessao2 > .educacao > .curso > p{
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: 300;
+    font-size: 13px;
+    text-align: justify;
+    padding-bottom: 7px;
 }
