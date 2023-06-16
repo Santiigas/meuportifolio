@@ -229,4 +229,13 @@ body{
     height: 50px;
     background-color: brown;
     border-radius: 15px;
+    gap: 10px;
+}
+
+.logo-icon{
+    width: 30px;
+}
+
+#html{
+    background-color: rgb(255, 173, 22);
 }
