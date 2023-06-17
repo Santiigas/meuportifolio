@@ -59,6 +59,17 @@ body{
     cursor: pointer;
     display: none;
 }
+/*Gerais -------------------------*/ 
+
+.titulo{
+    font-weight: 800;
+    font-size: 28px;
+}
+
+.subtitulo{
+    font-weight: 500;
+    font-size: 18px;
+}
 
 /*Sessão inicio ------------------ */
 .sessao{
@@ -145,10 +156,6 @@ body{
     gap: 30px;
 }
 
-.subtitulo{
-    font-weight: 800;
-    font-size: 22px;
-}
 .curso{
     display: flex;
     flex-direction: row; 
@@ -199,15 +206,25 @@ body{
     flex-direction: row; 
     justify-content: center; 
     align-items:center;
-    gap: 90px;
+    gap: 100px;
 }
 .programacao{
     display: flex;
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
-    gap: 40px;
+    gap: 22px;
 }
+
+.arte{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+    gap: 10px;
+    padding-top: 30px;
+}
+
 .container{
     display: flex;
     flex-direction: row; 
@@ -255,5 +272,43 @@ body{
 }
 #programa:hover{
     border-radius: 25px;
+    transform: translateY(-7px)
+}
+
+/*Sessão Projetos ------------------ */
+
+.sessao4{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+    gap: 50px;
+}
+.prontos{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items:center;
+    gap: 100px;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+    gap: 10px;
+}
+
+.imagem{
+    width: 300px;
+    border-radius: 15px;
+}
+
+.projetos{
+    transition: .3s;
+}
+.projetos:hover{
     transform: translateY(-7px)
 }
