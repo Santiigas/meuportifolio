@@ -208,7 +208,6 @@ body{
     align-items:center;
     gap: 40px;
 }
-
 .container{
     display: flex;
     flex-direction: row; 
@@ -219,7 +218,6 @@ body{
     background-color: rgb(255, 255, 255);
     gap: 40px;
 }
-
 .linguagem{
     display: flex;
     flex-direction: row; 
@@ -227,7 +225,6 @@ body{
     align-items:center;
     width: 200px;
     height: 50px;
-    background-color: brown;
     border-radius: 15px;
     gap: 10px;
 }
@@ -236,38 +233,28 @@ body{
     width: 30px;
 }
 
-#html{
-    background-color: #ffffff;
-    color: var(--quarta-cor);
+/*Estilos das linguagens*/
+#codigo{
+    background-color: var(--quarta-cor);
+    color: white;
     border: 4px solid var(--quarta-cor);
+    transition: .3s;
 }
 
-#css{
-    background-color: #ffffff;
-    color: var(--quarta-cor);
-    border: 4px solid var(--quarta-cor);
+#codigo:hover{
+    background-color: #4e6787;
+    border-radius: 25px;
+    box-shadow: 0px 15px 20px #4e6787a1;
+    transform: translateY(-7px)
 }
 
-#javascript{
-    background-color: #ffffff;
+/*Estilos das programas*/
+#programa{
     color: var(--quarta-cor);
-    border: 4px solid var(--quarta-cor);
+    transition: .3s;
 }
 
-#python{
-    background-color: #ffffff;
-    color: var(--quarta-cor);
-    border: 4px solid var(--quarta-cor);
-}
-
-#git{
-    background-color: #ffffff;
-    color: var(--quarta-cor);
-    border: 4px solid var(--quarta-cor)
-}
-
-#postgresql{
-    background-color: #ffffff;
-    color: var(--quarta-cor);
-    border: 4px solid var(--quarta-cor);
+#programa:hover{
+    border-radius: 25px;
+    transform: translateY(-7px)
 }
