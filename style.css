@@ -253,7 +253,6 @@ body{
     color: var(--quarta-cor);
     transition: .3s;
 }
-
 #programa:hover{
     border-radius: 25px;
     transform: translateY(-7px)
