@@ -67,7 +67,7 @@ body{
 }
 
 .subtitulo{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 18px;
 }
 
@@ -283,15 +283,15 @@ body{
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
-    gap: 10px;
+    gap: 5px;
 }
 .prontos{
-    padding-top: 30px;
+    padding-top: 20px;
     display: flex;
     flex-direction: row; 
     justify-content: center; 
     align-items:center;
-    gap: 100px;
+    gap: 40px;
 }
 
 .projetos{
@@ -302,7 +302,7 @@ body{
     gap: 10px;
 }
 
-.imagem{
+.imagemprojeto{
     width: 300px;
     border-radius: 15px;
 }
@@ -312,4 +312,25 @@ body{
 }
 .projetos:hover{
     transform: translateY(-7px)
+}
+
+.desenhos{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+    gap: 10px;
+}
+
+.design{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items:center;
+    gap: 10px;
+}
+
+.imagemilustracao{
+    width: 150px;
 }
