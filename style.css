@@ -140,6 +140,21 @@ body{
     line-height: 20px
 }
 
+.redessocias{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items:center;
+    gap: 25px;
+}
+
+.iconeredes{
+    padding-top: 10px;
+    width: 33px;
+    color: white;
+}
+
 /*Sessão educacao ------------------ */
 .sessao2{
     display: flex;
@@ -206,14 +221,14 @@ body{
     flex-direction: row; 
     justify-content: center; 
     align-items:center;
-    gap: 100px;
+    gap: 10px;
 }
 .programacao{
     display: flex;
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
-    gap: 22px;
+    gap: 2px;
 }
 
 .arte{
@@ -221,8 +236,8 @@ body{
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
-    gap: 10px;
-    padding-top: 20px;
+    gap: 0px;
+    padding-top: 30px;
 }
 
 .container{
@@ -233,7 +248,8 @@ body{
     width: 320px;
     width: 1050px;
     background-color: rgb(255, 255, 255);
-    gap: 40px;
+    gap: 30px;
+    padding-top: 20px;
 }
 .linguagem{
     display: flex;
@@ -278,7 +294,7 @@ body{
 /*Sessão Projetos ------------------ */
 
 .sessao4{
-    padding-top: 80px;
+    padding-top: 60px;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
@@ -333,4 +349,35 @@ body{
 
 .imagemilustracao{
     width: 150px;
+}
+
+/*Sessão contato ------------------ */
+.sessao5{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+    gap: 5px;
+}
+
+.finalizacao{
+    width: 600px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+}
+
+.final{
+    padding-top: 10px;
+    font-weight: 800;
+    font-size: 25px;
+}
+.textofinal{
+    padding-top: 10px;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: justify;
+    text-indent: 10px;
 }
