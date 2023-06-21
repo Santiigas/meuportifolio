@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* 320px - 480px = mobile */
+@media (min-width: 320px) {
+    main{
+        background-color: rgb(160, 160, 160);
+    }
+}
+
+/* 480px - 768px = tablet */
+@media (min-width: 480px) {
+    main{
+        background-color: rgb(224, 224, 224);
+        height: 25;
+    }
+
+    .sessao2{
+        flex-direction: column; 
+    }
+
+    .prontos{
+        flex-direction: column; 
+    }
+}
+
+
+/* 768px - 1024px = telas menores, laptops */
+@media (min-width: 768px) {
+
+}
+
+
+/* 1024px - 1200px = desktop */
+@media (min-width: 1024px) {
+    h5 {
+        background-color: rgb(71, 71, 46)
+    }
+}
+
+/* 1200 e + = telas maiores, tvs */
+@media (min-width: 1200px) {
+    h5 {
+        color: darkorchid;
+    }
+}

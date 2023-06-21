@@ -77,7 +77,6 @@ body{
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
-    background-color: #ffffff;
     min-width: 320px;
     max-width: 1050px;
     padding: 70px;
@@ -161,21 +160,14 @@ body{
     flex-direction: row; 
     justify-content: center; 
     align-items:center;
-    gap: 90px;
-}
-.educacao{
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items:center;
     gap: 30px;
 }
-
-.curso{
+.educacao{
     display: flex;
     flex-direction: row; 
     justify-content: center; 
     align-items:center;
+    gap: 30px;
 }
 
 .curso{
@@ -185,6 +177,7 @@ body{
     justify-content: center; 
     align-items:flex-start;
 }
+
 .linhax{
     background: #4e6787;
     width: 400px;
@@ -247,7 +240,6 @@ body{
     align-items:center;
     width: 320px;
     width: 1050px;
-    background-color: rgb(255, 255, 255);
     gap: 30px;
     padding-top: 20px;
 }
