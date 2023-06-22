@@ -46,6 +46,7 @@ body{
     margin: 60px;
     transition: .3s;
     cursor: pointer;
+    display: none;
 }
 
 .navbarr > a:hover,
@@ -63,12 +64,12 @@ body{
 
 .titulo{
     font-weight: 800;
-    font-size: 28px;
+    font-size: 25px;
 }
 
 .subtitulo{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /*Sessão inicio ------------------ */
@@ -77,14 +78,11 @@ body{
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
-    min-width: 320px;
-    max-width: 1050px;
-    padding: 70px;
     margin: auto;
 }
 
 .apresentacao{
-    width: 600px;
+    width: 300px;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
@@ -121,13 +119,13 @@ body{
 
 .apresentacao > h2{
     font-weight: 500;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .apresentacao > h1{
     padding-top: 10px;
     font-weight: 900;
-    font-size: 45px;
+    font-size: 30px;
 }
 
 .apresentacao > p{
@@ -156,22 +154,23 @@ body{
 
 /*Sessão educacao ------------------ */
 .sessao2{
+    padding-top: 80px;
     display: flex;
-    flex-direction: row; 
+    flex-direction: column; 
     justify-content: center; 
     align-items:center;
     gap: 30px;
 }
 .educacao{
     display: flex;
-    flex-direction: row; 
+    flex-direction: column; 
     justify-content: center; 
     align-items:center;
     gap: 30px;
 }
 
 .curso{
-    width: 400px;
+    width: 300px;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
@@ -180,7 +179,7 @@ body{
 
 .linhax{
     background: #4e6787;
-    width: 400px;
+    width: 300px;
     height: 4px;
 }
 
@@ -192,7 +191,7 @@ body{
 
 .sessao2 > .educacao > .curso > h1{
     font-weight: 800;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .sessao2 > .educacao > .curso > h2{
@@ -211,7 +210,7 @@ body{
 .sessao3{
     padding-top: 80px;
     display: flex;
-    flex-direction: row; 
+    flex-direction: column; 
     justify-content: center; 
     align-items:center;
     gap: 10px;
@@ -224,38 +223,46 @@ body{
     gap: 2px;
 }
 
+.container{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items:center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
 .arte{
     display: flex;
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
     gap: 0px;
-    padding-top: 30px;
+    padding-top: 10px;
 }
 
-.container{
+.container2{
     display: flex;
     flex-direction: row; 
     justify-content: center; 
     align-items:center;
-    width: 320px;
-    width: 1050px;
-    gap: 30px;
-    padding-top: 20px;
+    gap: 10px;
+    padding-top: 10px;
 }
+
 .linguagem{
     display: flex;
     flex-direction: row; 
     justify-content: center; 
     align-items:center;
-    width: 200px;
-    height: 50px;
-    border-radius: 15px;
-    gap: 10px;
+    width: 120px;
+    height: 33px;
+    border-radius: 5px;
+    gap: 5px;
 }
 
 .logo-icon{
-    width: 30px;
+    width: 17px;
 }
 
 /*Estilos das linguagens*/
@@ -268,9 +275,9 @@ body{
 
 #codigo:hover{
     background-color: #4e6787;
-    border-radius: 25px;
-    box-shadow: 0px 15px 20px #4e6787a1;
-    transform: translateY(-7px)
+    border-radius: 6px;
+    box-shadow: 0px 10px 10px #4e678763;
+    transform: translateY(-3px)
 }
 
 /*Estilos das programas*/
@@ -279,39 +286,36 @@ body{
     transition: .3s;
 }
 #programa:hover{
-    border-radius: 25px;
-    transform: translateY(-7px)
+    transform: translateY(-3px)
 }
 
 /*Sessão Projetos ------------------ */
 
 .sessao4{
-    padding-top: 60px;
+    padding-top: 80px;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
-    gap: 5px;
 }
+
 .prontos{
-    padding-top: 20px;
     display: flex;
-    flex-direction: row; 
+    flex-direction: column; 
     justify-content: center; 
     align-items:center;
-    gap: 40px;
 }
 
 .projetos{
+    padding-top: 20px;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
-    gap: 10px;
 }
 
 .imagemprojeto{
-    width: 300px;
+    width: 280px;
     border-radius: 15px;
 }
 
@@ -340,7 +344,7 @@ body{
 }
 
 .imagemilustracao{
-    width: 150px;
+    width: 100px;
 }
 
 /*Sessão contato ------------------ */
@@ -354,7 +358,7 @@ body{
 }
 
 .finalizacao{
-    width: 600px;
+    width: 300px;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
