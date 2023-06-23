@@ -42,7 +42,7 @@ body{
 
 /*Sessão inicio ------------------ */
 .sessao{
-    padding-top: 80px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
@@ -87,8 +87,8 @@ body{
 }
 
 .apresentacao > h2{
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 600;
+    font-size: 16px;
 }
 
 .apresentacao > h1{
@@ -312,7 +312,7 @@ body{
 
 /*Sessão contato ------------------ */
 .sessao5{
-    padding-top: 40px;
+    padding-top: 80px;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
