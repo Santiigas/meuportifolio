@@ -28,38 +28,6 @@ html{
 body{
     background: var(--primeira-cor);
 }
-
-.header{
-    top: 0;
-    left: 0;
-    padding: 2rem 9%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    z-index: 100px;
-}
-
-.navbarr > a{
-    font-size: 1.7rem;
-    color: var(--segunda-cor-texto);
-    font-weight: 700;
-    margin: 60px;
-    transition: .3s;
-    cursor: pointer;
-    display: none;
-}
-
-.navbarr > a:hover,
-.navbarr > a.active{
-    color: var(--quarta-cor);
-}
-
-#menu-icon{
-    font-size: 3.6rem;
-    color: var(--segunda-cor-texto);
-    cursor: pointer;
-    display: none;
-}
 /*Gerais -------------------------*/ 
 
 .titulo{
@@ -74,6 +42,7 @@ body{
 
 /*Sessão inicio ------------------ */
 .sessao{
+    padding-top: 80px;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
