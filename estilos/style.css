@@ -8,6 +8,7 @@
     padding: 0;
     text-decoration: none;
     border: none;
+    overflow-x: hidden;
     outline: none;
     font-family: 'Montserrat', sem serifa;
     /*height: 100%;*/
@@ -97,6 +98,12 @@ body{
     font-size: 30px;
 }
 
+.apresentacao > h3{
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 .apresentacao > p{
     padding-top: 22px;
     text-indent: 15px;
@@ -104,21 +111,6 @@ body{
     font-size: 13px;
     font-weight: 400;
     line-height: 20px
-}
-
-.redessocias{
-    padding-top: 10px;
-    display: flex;
-    flex-direction: row; 
-    justify-content: center; 
-    align-items:center;
-    gap: 25px;
-}
-
-.iconeredes{
-    padding-top: 10px;
-    width: 33px;
-    color: white;
 }
 
 /*Sessão educacao ------------------ */
@@ -318,6 +310,7 @@ body{
     justify-content: center; 
     align-items:center;
     gap: 5px;
+    padding-bottom: 50px;
 }
 
 .finalizacao{
@@ -326,17 +319,42 @@ body{
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
+    padding-bottom: 10px;
 }
 
-.final{
-    padding-top: 10px;
-    font-weight: 800;
-    font-size: 25px;
+.finalizacao > h2{
+    font-weight: 400;
+    font-size: 12px;
 }
-.textofinal{
+
+.redessocias{
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items:center;
+    gap: 25px;
+}
+
+.iconeredes{
     padding-top: 10px;
-    font-weight: 300;
+    width: 33px;
+    color: white;
+}
+
+.email{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+    width: 290px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: var(--segunda-cor-texto);
+}
+
+.email > h1{
+    font-weight: 600;
     font-size: 15px;
-    text-align: justify;
-    text-indent: 10px;
+    color: white;
 }
