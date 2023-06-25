@@ -32,6 +32,7 @@ body{
 /*Gerais -------------------------*/ 
 
 .titulo{
+    color: var(--quarta-cor);
     font-weight: 800;
     font-size: 25px;
 }
@@ -43,7 +44,7 @@ body{
 
 /*Sessão inicio ------------------ */
 .sessao{
-    padding-top: 100px;
+    padding-top: 60px;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
@@ -81,6 +82,8 @@ body{
 }
 
 .fotoperfil{
+    background-image: url(../imagens/santiago.jpg);
+    background-size: cover;
     height: 230px;
     width: 230px;
     border-radius: 150px;
@@ -93,6 +96,7 @@ body{
 }
 
 .apresentacao > h1{
+    color: var(--quarta-cor);
     padding-top: 10px;
     font-weight: 900;
     font-size: 30px;
@@ -108,7 +112,7 @@ body{
     padding-top: 22px;
     text-indent: 15px;
     text-align: justify;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 20px
 }
@@ -150,13 +154,14 @@ body{
 }
 
 .sessao2 > .educacao > .curso > h2{
-    font-weight: 500;
+    color: var(--quarta-cor);
+    font-weight: 600;
     font-size: 15px;
 }
 
 .sessao2 > .educacao > .curso > p{
-    font-weight: 300;
-    font-size: 13px;
+    font-weight: 400;
+    font-size: 14px;
     text-align: justify;
     padding-bottom: 7px;
 }
@@ -229,10 +234,8 @@ body{
 }
 
 #codigo:hover{
-    background-color: #4e6787;
     border-radius: 6px;
-    box-shadow: 0px 10px 10px #4e678763;
-    transform: translateY(-3px)
+    transform: translateY(-5px)
 }
 
 /*Estilos das programas*/
@@ -267,6 +270,9 @@ body{
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
+}
+.projetos > h1{
+    padding-bottom: 5px;
 }
 
 .imagemprojeto{
@@ -310,7 +316,7 @@ body{
     justify-content: center; 
     align-items:center;
     gap: 5px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
 .finalizacao{
@@ -324,7 +330,7 @@ body{
 
 .finalizacao > h2{
     font-weight: 400;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .redessocias{
