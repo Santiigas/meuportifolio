@@ -275,6 +275,10 @@ body{
     padding-bottom: 5px;
 }
 
+.projetos > p{
+    font-size: 13px;
+}
+
 .imagemprojeto{
     width: 280px;
     border-radius: 15px;
@@ -305,7 +309,9 @@ body{
 }
 
 .imagemilustracao{
+    cursor: pointer;
     width: 100px;
+    border-radius: 5px;
 }
 
 /*Sessão contato ------------------ */
@@ -318,6 +324,11 @@ body{
     gap: 5px;
     padding-bottom: 60px;
 }
+.sessao5 > h2 {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 14px;
+}
 
 .finalizacao{
     width: 300px;
@@ -325,7 +336,7 @@ body{
     flex-direction: column; 
     justify-content: center; 
     align-items:center;
-    padding-bottom: 10px;
+    padding-bottom: 8px;
 }
 
 .finalizacao > h2{
@@ -344,7 +355,7 @@ body{
 
 .iconeredes{
     padding-top: 10px;
-    width: 33px;
+    width: 38px;
     color: white;
 }
 
