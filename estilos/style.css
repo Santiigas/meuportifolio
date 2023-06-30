@@ -322,7 +322,7 @@ body{
     justify-content: center; 
     align-items:center;
     gap: 5px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 .sessao5 > h2 {
     padding-top: 15px;
@@ -374,4 +374,21 @@ body{
     font-weight: 600;
     font-size: 15px;
     color: white;
+}
+
+.fim{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+}
+
+.fim > .logo{
+    width: 200px;
+}
+
+.fim > p{
+    font-weight: 300;
+    font-size: 12px;
 }
