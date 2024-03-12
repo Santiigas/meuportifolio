@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600; 0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900 & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    overflow-x: hidden;
+    outline: none;
+    font-family: 'Montserrat', sem serifa;
+    /*height: 100%;*/
+}
+
+:root{
+    --primeira-cor:#ffffff;
+    --segunda-cor-texto:#393d3f;
+    --terceira-cor:#778da9;
+    --quarta-cor: #4e6787;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    background: var(--primeira-cor);
+}
+/*Gerais -------------------------*/ 
+
+.titulo{
+    color: var(--quarta-cor);
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 30px;
+}
+
+.subtitulo{
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+
+/*Sessão Projetos ------------------ */
+
+main{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+}
+
+.sessao4{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items:center;
+}
+
+.prontos{
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+}
+
+.projetos{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+}
+.projetos > h1{
+    padding-bottom: 5px;
+}
+
+.projetos > p{
+    font-size: 13px;
+}
+
+.imagemprojeto{
+    width: 280px;
+    border-radius: 15px;
+}
+
+.projetos{
+    transition: .3s;
+}
+.projetos:hover{
+    transform: translateY(-7px)
+}
+
+.desenhos{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+    gap: 10px;
+}
+
+.design{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    align-items:center;
+    gap: 10px;
+}
+
+.imagemilustracao{
+    cursor: pointer;
+    width: 100px;
+    border-radius: 5px;
+}
+

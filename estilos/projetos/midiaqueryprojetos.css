@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /*sessão 4 ----------------------*/
+
+    .sessao4{
+        flex-direction: column; 
+    }
+
+    .projetos{
+        flex-direction: column; 
+        padding-top: 20px;
+    }
+
+    .imagemprojeto{
+        width: 300px;
+    }
+
+    .imagemilustracao{
+        width: 150px;
+    }
+
+
+@media (min-width: 1024px){
+
+    /*sessão 4 ----------------------*/
+
+    .prontos{
+        flex-direction: column; 
+        gap: 50px;
+    }
+
+    .projetos{
+        padding-top: 30px;
+    }
+
+    .imagemprojeto{
+        width: 330px;
+    }
+
+    .imagemilustracao{
+        width: 180px;
+    }
+}
+}
