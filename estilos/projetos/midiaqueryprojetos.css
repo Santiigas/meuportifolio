@@ -6,12 +6,16 @@
     /*sessão 4 ----------------------*/
 
     .sessao4{
-        flex-direction: column; 
+        flex-direction: row;
+        gap: 10px; 
+    }
+
+    .prontos{
+        gap:40px
     }
 
     .projetos{
         flex-direction: column; 
-        padding-top: 20px;
     }
 
     .imagemprojeto{
@@ -21,18 +25,25 @@
     .imagemilustracao{
         width: 150px;
     }
+}
 
 
 @media (min-width: 1024px){
 
     /*sessão 4 ----------------------*/
 
+    .sessao4{
+        flex-direction: row; 
+        gap: 20px;
+    }
+
     .prontos{
         flex-direction: column; 
-        gap: 50px;
+        gap: 30px;
     }
 
     .projetos{
+        flex-direction: column;
         padding-top: 30px;
     }
 
@@ -43,5 +54,4 @@
     .imagemilustracao{
         width: 180px;
     }
-}
 }

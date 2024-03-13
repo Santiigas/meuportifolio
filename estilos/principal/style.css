@@ -167,6 +167,50 @@ body{
     padding-bottom: 7px;
 }
 
+/*Sessão experiencia ------------------ */
+
+.sessao_experiencia{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+    gap: 30px;
+}
+
+.sessao_experiencia > .educacao > .curso > h1{
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.sessao_experiencia > .educacao > .curso > h2{
+    color: var(--quarta-cor);
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.sessao_experiencia > .educacao > .curso > h3{
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    padding-top: 7px;
+}
+
+.sessao_experiencia > .educacao > .curso > h4{
+    font-weight: 400;
+    font-size: 13px;
+    text-align: justify;
+    padding-bottom: 7px;
+}
+
+.sessao_experiencia > .educacao > .curso > p{
+    font-weight: 400;
+    font-size: 14px;
+    text-align: justify;
+    padding-bottom: 7px;
+}
+
+
 /*Sessão Habilidades ------------------ */
 .sessao3{
     padding-top: 80px;

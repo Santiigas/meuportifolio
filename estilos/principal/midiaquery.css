@@ -43,6 +43,41 @@
         font-size: 15px;
     }
 
+    /*sessão experiencia ----------------------*/
+
+    .educacao{
+        flex-direction: row; 
+        gap: 50px;
+    }
+    
+    .curso{
+        width: 320px;
+    }
+
+    .sessao_experiencia > .educacao > .curso > h1{
+        font-weight: 800;
+        font-size: 17px;
+    }
+    
+    .sessao_experiencia > .educacao > .curso > h2{
+        font-size: 15px;
+    }
+    
+    .sessao_experiencia > .educacao > .curso > h3{
+        font-size: 15px;
+        padding-top: 7px;
+    }
+    
+    .sessao_experiencia > .educacao > .curso > h4{
+        font-size: 13px;
+        padding-bottom: 7px;
+    }
+    
+    .sessao_experiencia > .educacao > .curso > p{
+        font-size: 14px;
+        padding-bottom: 7px;
+    }
+
     /*sessão 3 ----------------------*/
 
     .container{
@@ -151,6 +186,41 @@
         font-size: 16px;
     }
 
+    /*sessão experiencia ----------------------*/
+
+    .educacao{
+        flex-direction: row; 
+        gap: 50px;
+    }
+    
+    .curso{
+        width: 430px;
+    }
+
+    .sessao_experiencia > .educacao > .curso > h1{
+        font-weight: 800;
+        font-size: 20px;
+    }
+    
+    .sessao_experiencia > .educacao > .curso > h2{
+        font-size: 16px;
+    }
+    
+    .sessao_experiencia > .educacao > .curso > h3{
+        font-size: 15px;
+        padding-top: 7px;
+    }
+    
+    .sessao_experiencia > .educacao > .curso > h4{
+        font-size: 13px;
+        padding-bottom: 7px;
+    }
+    
+    .sessao_experiencia > .educacao > .curso > p{
+        font-size: 14px;
+        padding-bottom: 7px;
+    }
+    
     /*sessão 3 ----------------------*/
 
     .container{

@@ -41,7 +41,7 @@ body{
 .subtitulo{
     font-weight: 400;
     font-size: 16px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
 }
 
 
@@ -55,9 +55,8 @@ main{
 }
 
 .sessao4{
-    padding-top: 30px;
     display: flex;
-    flex-direction: row; 
+    flex-direction: column; 
     justify-content: center; 
     align-items:center;
 }
@@ -77,6 +76,7 @@ main{
     justify-content: center; 
     align-items:center;
 }
+
 .projetos > h1{
     padding-bottom: 5px;
 }
