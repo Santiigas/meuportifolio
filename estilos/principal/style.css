@@ -82,7 +82,7 @@ body{
 }
 
 .fotoperfil{
-    background-image: url(/imagens/santiago.jpg);
+    background-image: url(/estilos/principal/santiago.jpg);
     background-size: cover;
     height: 230px;
     width: 230px;
