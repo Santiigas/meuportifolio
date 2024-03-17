@@ -120,3 +120,28 @@ main{
     border-radius: 5px;
 }
 
+.botao{
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:center;
+    padding-bottom: 20px;
+}
+
+.botao_ver_mais{
+    width: 230px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--quarta-cor);
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.botao_ver_mais:hover{
+    width: 260px;
+}
+
