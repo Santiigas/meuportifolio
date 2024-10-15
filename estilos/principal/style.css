@@ -136,7 +136,7 @@ body{
 }
 
 .curso{
-    width: 400px;
+    width: 300px;
     display: flex;
     flex-direction: column; 
     justify-content: center; 
@@ -145,7 +145,7 @@ body{
 
 .linhax{
     background: #4e6787;
-    width: 400px;
+    width: 300px;
     height: 4px;
 }
 
